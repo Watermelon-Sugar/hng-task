@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {  
+    background: linear-gradient(to right, #d66d75, #e29587);
+}
+.brand {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.brand img {
+    width: 320px;
+}
+.brand a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.brand button {
+    border-radius: 35px;
+    border: 2px solid;
+}
+.dev-intro {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+.image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px #fff solid;
+}
+.intro h1 {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bolder;
+    line-height: 50px;
+    color: #faebd7;
+    font-size: 3rem;
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-info p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.contact-info span {
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.bio {
+    padding-top: 20px;
+}
+.bio-text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 2.6rem;
+}
+.bio-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 900;
+}
+.skills {
+    padding-bottom: 30px;
+}
+.skills h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 2.6rem;
+}
+.skill p {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 900;
+}
+.portfolio h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 2.6rem;
+}
+.img {
+    padding-top: 20px;
+}
+.img img {
+    height: 35vh;
+    width: 40vw;
+}
+.about {
+    padding-top: 20px;
+}
+.about-me h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 2.6rem;
+}
+.about-me p {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 900;
+}
+footer {
+    background-color: #d66d75;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+.info-seyi {
+    width: 70%;
+}
+.info-seyi h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 2.6rem;
+}
+.info-seyi p {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 900;
+}
+.cv-btn {
+    text-align: center;
+    padding-top: 80px;
+}
+.cv-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.cv-btn button {
+    border-radius: 35px;
+    border: 2px solid;
+}
+.rights a, .rights p {
+    text-align: center;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .brand {
+    padding-top: 25px;
+    }
+    .brand img {
+        width: 250px;
+    }
+    .brand a {
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+    .image img {
+    width: 272px;
+    height: 272px;
+    border-radius: 50%;
+    border: 5px #fff solid;
+    }
+    .intro h1 {
+        position: relative;
+        top: 25%;
+        text-align: left;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: bolder;
+        line-height: 40px;
+        color: #faebd7;
+        font-size: 2.3rem;
+    }
+    .contact-info {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+    .contact-info p {
+        font-weight: 550;
+        font-size: 1.2rem;
+    }
+    .contact-info span {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .bio-text p {
+        font-size: 1.1rem;
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .skills {
+        padding-bottom: 20px;
+    }
+    .skill p {
+        font-size: 1.1rem;
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .img {
+        padding-top: 20px;
+    }
+    .img img {
+        height: 30vh;
+    }
+    .about-me p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    font-weight: 800;
+    }
+    .info-seyi h3 {
+        font-size: 2.2rem;
+    }
+    .info-seyi p {
+        width: 100%;
+        font-size: 1.1rem;
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .cv-btn {
+        text-align: center;
+        padding-top: 60px;
+    }
+    .cv-btn a {
+        font-weight: 800;
+        font-size: 1.1rem;
+    }
+    .cv-btn button {
+        border-radius: 35px;
+        border: 2px solid;
+    }
+    .rights a, .rights p {
+        font-weight: 800;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    .brand {
+        padding-top: 25px;
+    }
+    .brand img {
+        width: 120px;
+    }
+    .brand a {
+        font-weight: 800;
+        font-size: .9rem;
+    }
+    .dev-intro {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .image img {
+        position: relative;
+        left: 5%;
+        width: 180px;
+        height: 180px;
+    }
+    .intro h1 {
+        text-align: left;
+        font-weight: 500;
+        line-height: 32px;
+        font-size: 1.7rem;
+        padding-left: 30px;
+    }
+    .contact-info {
+        position: relative;
+        left: 8%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .contact-info p {
+        font-weight: 450;
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    .contact-info span {
+        font-weight: 400;
+        font-size: .8rem;
+    }
+    .bio-text h2 {
+    font-weight: 900;
+    font-size: 2.1rem;
+}
+    .bio-text p {
+        font-size: 1rem;
+        line-height: 28px;
+        font-weight: 900;
+    }
+    .skills {
+        padding-bottom: 15px;
+    }
+    .skills h2 {
+        font-weight: 900;
+        font-size: 2.1rem;
+    }
+    .skill p {
+        font-size: 1rem;
+        line-height: 28px;
+        font-weight: 800;
+    }
+    .portfolio h2 {
+        font-weight: 900;
+        font-size: 2.1rem;
+    }
+    .img {
+        padding-top: 15px;
+    }
+    .img img {
+        width: auto;
+    }
+    .about-me h2 {
+        font-weight: 900;
+        font-size: 2.1rem;
+    }
+    .about-me p {
+        font-size: 1rem;
+        line-height: 28px;
+        font-weight: 800;
+    }
+    .footer {
+        display: block;
+        padding-top: 20px;
+    }
+    .info-seyi {
+        width: 100%;
+    }
+    .info-seyi h3 {
+        font-size: 2rem;
+    }
+    .info-seyi p {
+        font-size: 1rem;
+        line-height: 28px;
+        font-weight: 800;
+        width: 100%;
+    }
+    .socials {
+        text-align: center;
+    }
+    .cv-btn {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .cv-btn a {
+        font-weight: 800;
+        font-size: 1rem;
+    }
+    .rights a, .rights p {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
